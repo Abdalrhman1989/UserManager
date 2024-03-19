@@ -10,7 +10,7 @@ export default defineConfig({
     },
   },
   test: {
-    include: ['**/*.unit.spec.{js,jsx,ts,tsx}'], // Added comma here
+    include: ['**/*.spec.js'],
     environment: 'happy-dom',
     globals: true,
     setupFiles: ['./tests/setup.js'],
